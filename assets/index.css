@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* border-style: solid; */
+  /* border-width: 1px;
+  border-color: red; */
 }
 
 .navbar {
@@ -37,4 +40,42 @@ a:hover {
 
 hr {
   opacity: 30%;
+}
+
+#hero {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  margin-left: 16rem;
+  margin-right: 16rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title > h1 {
+  font-size: xx-large;
+  overflow-wrap: break-word;
+  inline-size: 23rem;
+  margin-bottom: 1rem;
+}
+
+.hero-title > strong {
+  display: block;
+  overflow-wrap: break-word;
+  inline-size: 22rem;
+}
+
+#hero-about {
+  margin-left: 16rem;
+  margin-right: 16rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#hero-about p {
+  inline-size: 40rem;
+  font-family: "Archivo", sans-serif;
 }
