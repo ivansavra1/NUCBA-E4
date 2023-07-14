@@ -2,9 +2,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* border-style: solid; */
-  /* border-width: 1px;
-  border-color: red; */
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
 }
 
 .navbar {
@@ -53,14 +53,14 @@ hr {
   justify-content: space-between;
 }
 
-.hero-title > h1 {
+.hero-title h1 {
   font-size: xx-large;
   overflow-wrap: break-word;
   inline-size: 23rem;
   margin-bottom: 1rem;
 }
 
-.hero-title > strong {
+.hero-title strong {
   display: block;
   overflow-wrap: break-word;
   inline-size: 22rem;
@@ -78,4 +78,31 @@ hr {
 #hero-about p {
   inline-size: 40rem;
   font-family: "Archivo", sans-serif;
+}
+
+#rescue {
+  margin-top: 1rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  inline-size: 40rem;
+  justify-content: center;
+}
+
+.stage-icon {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+  background: #fff;
+  border: 3px solid #000;
+  color: #000;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+.rescue-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
